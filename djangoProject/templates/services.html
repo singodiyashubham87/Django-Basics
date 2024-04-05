@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Django App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body
+    class="w-full h-screen bg-gray-800 text-white flex flex-col items-center justify-evenly"
+  >
+    <header>
+      <h1 class="title my-8 text-5xl font-semibold uppercase text-center">
+        Services Page
+      </h1>
+      <nav>
+        <ul
+          class="text-3xl font-semibold italic underline flex gap-4 w-full justify-center"
+        >
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About Us</a></li>
+          <li><a href="/services">Services</a></li>
+          <li><a href="/contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <p class="text-4xl font-semibold">
+        Click <a href="/admin" class="underline text-blue-400">here</a> to go to
+        the admin page
+      </p>
+    </main>
+    <footer>
+      <p class="text-2xl italic">&copy; 2020 Django App</p>
+    </footer>
+  </body>
+</html>
